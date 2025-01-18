@@ -24,7 +24,6 @@ const cnBase58 = (function () {
     }
     return res
   }
-  this.hextobin = hextobin
   b58.hextobin = hextobin
 
   function bintohex(bin) {
@@ -34,7 +33,6 @@ const cnBase58 = (function () {
     }
     return out.join("")
   }
-  this.bintohex = bintohex
   b58.bintohex = bintohex
 
   function strtobin(str) {
@@ -44,7 +42,6 @@ const cnBase58 = (function () {
     }
     return res
   }
-  this.strtobin = strtobin
   b58.strtobin = strtobin
 
   function bintostr(bin) {
